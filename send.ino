@@ -69,9 +69,6 @@ void loop(){
   LoRa.beginPacket();      
   LoRa.print(Datastring);
   LoRa.print(counter);
-  digitalWrite(Red_Led, HIGH);
-  delay(500);
-  digitalWrite(Red_Led, LOW);
   LoRa.endPacket();
   counter++;
   
