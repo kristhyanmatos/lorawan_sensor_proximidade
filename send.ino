@@ -8,8 +8,8 @@ int PinTrigger = 2;
 int PinEcho = 3; 
 
 float TempoEcho = 0;
-// em metros por segundo
 
+// em metros por segundo
 const float VelocidadeSom_mpors = 340; 
 
 // em metros por microsegundo
@@ -53,9 +53,7 @@ void loop(){
  Serial.println(counter);
  randNumber = random(1000);
 
- 
  int randNumber = random(100); Dummyvalue = randNumber;
-
 
   // Envia pulso para o disparar o sensor
   DisparaPulsoUltrassonico();
